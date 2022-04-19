@@ -1,0 +1,143 @@
+.center, .nav-open-up .nav-open-up-top, .nav-open-up .nav-open-up-content-container, .nav-open-up .nav-open-up-content-container .nav-open-up-item, .nav-open-up .nav-open-up-content-bottom-container, nav, nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-open-up {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: white;
+  z-index: 10;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  overflow: auto;
+}
+
+.nav-open-up .nav-open-up-top {
+  width: 90%;
+  height: 10vh;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.nav-open-up .nav-open-up-top img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.nav-open-up .nav-open-up-top img:hover {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.nav-open-up .nav-open-up-content-container {
+  height: 65vh;
+  width: 80%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-open-up .nav-open-up-content-container .nav-open-up-item {
+  text-decoration: none;
+  width: 100%;
+  height: 20%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.nav-open-up .nav-open-up-content-container .nav-open-up-item div {
+  text-decoration: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #212931;
+  outline: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, orangered), color-stop(50%, orangered), color-stop(50%, #212931));
+  background: linear-gradient(to right, orangered 50%, orangered 50%, #212931 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  -webkit-transition: background-position 300ms ease;
+  transition: background-position 300ms ease;
+}
+
+.nav-open-up .nav-open-up-content-container .nav-open-up-item div:hover {
+  background-position: 0 100%;
+}
+
+.nav-open-up .nav-open-up-content-bottom-container {
+  width: 80%;
+  height: 30vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav {
+  position: absolute;
+  width: 95%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+nav div {
+  width: 30px;
+  height: 35px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  cursor: pointer;
+}
+
+nav div div {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+}
+
+#a:hover > #b {
+  background-position: 0 100%;
+}
+/*# sourceMappingURL=nav.css.map */

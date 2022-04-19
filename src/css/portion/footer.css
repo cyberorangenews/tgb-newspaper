@@ -1,0 +1,83 @@
+.center, #footer .footer-column, #footer .footer-column #footer-boxes, #footer .footer-column #footer-boxes .left, #footer .footer-column #footer-boxes .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.175);
+}
+
+#footer .footer-column {
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#footer .footer-column #footer-boxes {
+  width: 100%;
+  height: 25%;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer .footer-column #footer-boxes .left {
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+
+#footer .footer-column #footer-boxes .left p {
+  color: white;
+  font-size: 13px;
+  font-family: "Merriweather", serif;
+}
+
+#footer .footer-column #footer-boxes .right {
+  width: 70%;
+  height: 100%;
+  text-align: center;
+}
+
+#footer .footer-column #footer-boxes .right p {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 13px;
+  outline: none;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, orangered), color-stop(50%, orangered), color-stop(50%, white));
+  background: linear-gradient(to right, orangered 50%, orangered 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  -webkit-transition: background-position 500ms ease;
+  transition: background-position 500ms ease;
+}
+
+#footer .footer-column #footer-boxes .right p:hover {
+  background-position: 0 100%;
+}
+/*# sourceMappingURL=footer.css.map */
