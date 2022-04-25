@@ -86,16 +86,16 @@ function Nav(props) {
           <Link className="nav-open-up-item" id="a" to="/">
             <div to="/" id="b" className={props.page === "Home" ? "orange-text" : "nav-item-click"}>Home</div>
           </Link>
-          <Link className="nav-open-up-item" id="a" to="/editions">
+          <Link className="nav-open-up-item" id="a" to="/tgb-newspaper/editions">
             <div to="/editions" id="b" className={props.page === "Editions" ? "orange-text" : "nav-item-click" }>Editions</div>
           </Link> 
-          <Link className="nav-open-up-item" id="a" to="/memes">
+          <Link className="nav-open-up-item" id="a" to="/tgb-newspaper/memes">
             <div to="/memes" id="b" className={props.page === "Memes" ? "orange-text" : "nav-item-click" }>Memes</div>
           </Link> 
-          <Link className="nav-open-up-item" id="a" to="/student-profiles">
+          <Link className="nav-open-up-item" id="a" to="/tgb-newspaper/student-profiles">
             <div to="/student-profiles" id="b" className={props.page === "Student Profiles" ? "orange-text" : "nav-item-click" }>Student Profiles</div>
           </Link> 
-          <Link className="nav-open-up-item" id="a" to="/about-us">
+          <Link className="nav-open-up-item" id="a" to="/tgb-newspaper/about-us">
             <div to="/about-us" id="b" className={props.page === "About Us" ? "orange-text" : "nav-item-click" }>About Us</div>
           </Link>
         </div>

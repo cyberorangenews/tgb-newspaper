@@ -29,18 +29,18 @@ function Editions() {
             Object.keys(articles).map((x, y) => 
               <div className="grid-item" key={y}>
                 
-                <Link to={"/edition/" + x}>
+                <Link to={"/tgb-newspaper/edition/" + x}>
                   <h2>{x}</h2>
                 </Link>
                 <p>{articles[x].General.Date}</p> 
                 <div className="img-container">
-                  <Link to={"/edition/" + x}>
+                  <Link to={"/tgb-newspaper/edition/" + x}>
                     <img alt="" src={articles[x].General.Image} />
                   </Link>
                 </div> 
                 <p id="summary">{articles[x].General.Summary}</p> 
 
-                <Link to={"/edition/" + x}>
+                <Link to={"/tgb-newspaper/edition/" + x}>
                   <button>View this Edition</button>
                 </Link> 
 

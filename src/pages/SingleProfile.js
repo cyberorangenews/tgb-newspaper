@@ -1,5 +1,5 @@
 import React, { useState } from 'react'; 
-import { useNavigate, Link, useParams } from 'react-router-dom'; 
+import { useNavigate, useParams } from 'react-router-dom'; 
 import Nav from './portions/Nav'; 
 import '../css/singleprofile.scss'; 
 import { profiles } from '../db/ArticleEditions'; 

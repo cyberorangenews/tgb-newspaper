@@ -30,17 +30,17 @@ function StudentProfiles() {
             Object.keys(profiles).map((x, y) => 
               <div className="student-profile-card" key={y}>
 
-                <Link to={"/single-profile/" + x}>
+                <Link to={"/tgb-newspaper/single-profile/" + x}>
                   <h2>{x}</h2> 
                 </Link>
                 
                 <div className="img-container">
-                  <Link to={"/single-profile/" + x}>
+                  <Link to={"/tgb-newspaper/single-profile/" + x}>
                     <img alt="" src={profiles[x]["Img"][0]} /> 
                   </Link>
                 </div>
                 
-                <Link to={"/single-profile/" + x}>
+                <Link to={"/tgb-newspaper/single-profile/" + x}>
                   <button>Full Student Profile</button> 
                 </Link> 
               </div> 

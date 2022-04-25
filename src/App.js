@@ -13,21 +13,21 @@ function App() {
   return (
     <Routes> 
     
-      <Route path="/practice-" index element={<MainPage />} />
+      <Route path="/tgb-newspaper" index element={<MainPage />} />
 
-      <Route path="/practice-/editions" element={<Editions />} /> 
+      <Route path="/tgb-newspaper/editions" element={<Editions />} /> 
 
-      <Route path="/practice-/edition/:edition" element={<SingleEdition />} />
+      <Route path="/tgb-newspaper/edition/:edition" element={<SingleEdition />} />
 
-      <Route path="/practice-/memes" element={<Memes />} /> 
+      <Route path="/tgb-newspaper/memes" element={<Memes />} /> 
 
-      <Route path="/practice-/student-profiles" element={<StudentProfiles />} /> 
+      <Route path="/tgb-newspaper/student-profiles" element={<StudentProfiles />} /> 
 
-      <Route path="/practice-/about-us" element={<AboutUs />} /> 
+      <Route path="/tgb-newspaper/about-us" element={<AboutUs />} /> 
 
-      <Route path="/practice-/article/:name/:edition" element={<Article />} /> 
+      <Route path="/tgb-newspaper/article/:name/:edition" element={<Article />} /> 
 
-      <Route path="/practice-/single-profile/:studentname" element={<SingleProfile />} /> 
+      <Route path="/tgb-newspaper/single-profile/:studentname" element={<SingleProfile />} /> 
 
       <Route path="*" element={<ErrorPage />} status={404} /> 
     

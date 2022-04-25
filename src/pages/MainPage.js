@@ -93,14 +93,14 @@ function MainPage() {
                     recentEditionArticles.map((x, y) => 
                         <div className="grid-item" key={y}>
 
-                            <Link to={"/article/" + x + "/Edition 3"}>
+                            <Link to={"/tgb-newspaper/article/" + x + "/Edition 3"}>
                                 <h2>{x}</h2>
                             </Link>
                             
                             <p id="author">{articles["Edition 3"].Articles[x].Author}</p>
 
                             <div className="img-container">
-                                <Link to={"/article/" + x + "/Edition 3"}>
+                                <Link to={"/tgb-newspaper/article/" + x + "/Edition 3"}>
                                     <img alt="" src={articles["Edition 3"].Articles[x].Image} />
                                 </Link>
                             </div>
@@ -109,7 +109,7 @@ function MainPage() {
                                 {articles["Edition 3"].Articles[x].Summary}
                             </p>
 
-                            <Link to={"/article/" + x + "/Edition 3"}>
+                            <Link to={"/tgb-newspaper/article/" + x + "/Edition 3"}>
                                 <button>Full Story</button>
                             </Link>
 
@@ -124,7 +124,7 @@ function MainPage() {
             </div> 
 
             <div className="bottom-page-link-container">
-                <Link to="/editions">View All Editions</Link>
+                <Link to="/tgb-newspaper/editions">View All Editions</Link>
             </div>
 
         </div> 

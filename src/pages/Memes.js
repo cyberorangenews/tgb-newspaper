@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; 
 import '../css/memes.scss'; 
 import Nav from './portions/Nav';
-import { Link, useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faAngleRight, faAngleLeft } from '@fortawesome/free-solid-svg-icons'; 
 import { memes } from '../db/ArticleEditions'; 

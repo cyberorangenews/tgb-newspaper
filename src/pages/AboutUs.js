@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './portions/Nav'; 
-import { Link, useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom'; 
 import '../css/aboutus.scss'; 
 import Footer from './portions/Footer'; 
 import amongUsEveryone from '../images/AboutUs/among-us-everyone.png'; 

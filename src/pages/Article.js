@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; 
 import { useParams } from "react-router-dom"; 
 import Nav from './portions/Nav'; 
-import { Link, useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom'; 
 import Footer from './portions/Footer'; 
 import { articles } from '../db/ArticleEditions'; 
 import '../css/article.scss'; 

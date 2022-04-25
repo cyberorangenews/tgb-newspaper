@@ -31,18 +31,18 @@ function SingleEdition() {
                     Object.keys(articles[edition].Articles).map((x, y) => 
                     <div key={y} className="grid-item-single-edition">
 
-                        <Link to={"/article/" + x + "/" + edition}>
+                        <Link to={"/tgb-newspaper/article/" + x + "/" + edition}>
                             <h2>{x}</h2>
                         </Link>
                         <div className="img-container">
-                            <Link to={"/article/" + x + "/" + edition}>
+                            <Link to={"/tgb-newspaper/article/" + x + "/" + edition}>
                                 <img alt="" src={articles[edition].Articles[x].Image} />
                             </Link>
                         </div>
                         <p>By {articles[edition].Articles[x].Author}</p>
                         <p id="summary">{articles[edition].Articles[x].Summary}</p> 
 
-                        <Link to={"/article/" + x + "/" + edition}>
+                        <Link to={"/tgb-newspaper/article/" + x + "/" + edition}>
                             <button>Full Story</button>
                         </Link>
 
