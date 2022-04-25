@@ -3,6 +3,18 @@ import Nav from './portions/Nav';
 import { Link, useNavigate } from 'react-router-dom'; 
 import '../css/aboutus.scss'; 
 import Footer from './portions/Footer'; 
+import amongUsEveryone from '../images/AboutUs/among-us-everyone.png'; 
+import reimersAmongUs from '../images/AboutUs/reimers-among-us.png'; 
+import pelagioAmongUs from '../images/AboutUs/pelagio-among-us.png'; 
+import brianAmongUs from '../images/AboutUs/brian-among-us.png';  
+import jennaAmongUs from '../images/AboutUs/jenna-among-us.png'; 
+import stevenAmongUs from '../images/AboutUs/steven-among-us.png';  
+import laceyAmongUs from '../images/AboutUs/lacey-among-us.png'; 
+import jairAmongUs from '../images/AboutUs/jair-among-us.png'; 
+import danilleyAmongUs from '../images/AboutUs/danilley-among-us.png'; 
+import iraisAmongUs from '../images/AboutUs/irais-among-us.png'; 
+import ozzieAmongUs from '../images/AboutUs/ozzie-among-us.png'; 
+
 
 function AboutUs() { 
 
@@ -28,7 +40,7 @@ function AboutUs() {
 
               <h1>ABOUT NEWSPAPER</h1> 
 
-              <img alt="" src="/among-us-everyone.png" /> 
+              <img alt="" src={amongUsEveryone} /> 
 
               <div id="content">
                 <p style={{margin: '0px'}}>
@@ -62,7 +74,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>WILLIAM REIMERS (SPONSOR/FOUNDER)</h2> 
                 <h3>JOINED IN 2017, FOUNDED IN 2017</h3> 
-                <img alt="" src="/reimers-among-us.png" /> 
+                <img alt="" src={reimersAmongUs} /> 
                 <p>
                   This is my 15th year at Trevor G Browne High School. I Currently teach World History AP and 
                   Honors, and I am the faculty co-sponsor of TGB's newspaper, "The Orange Juice." I hold a 
@@ -78,7 +90,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2'}}>
                 <h2>ANGELICA PELAGIO (SPONSOR)</h2> 
                 <h3>JOINED IN 2019</h3> 
-                <img alt="" src="/pelagio-among-us.png" /> 
+                <img alt="" src={pelagioAmongUs} /> 
                 <p>
                   Hello! My name is Ms. Pelagio and I teach US History. This is my 5th year teaching at Trevor 
                   Browne and 2nd in the Orange Juice. I love teaching AMerican Hisotry because it is the story 
@@ -93,7 +105,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>BRIAN CHAVEZ (PRESIDENT)</h2> 
                 <h3>JOINED IN 2019, PRESIDENT SINCE 2020, FOUNDED CYBER ORANGE IN 2020</h3> 
-                <img alt="" src="/brian-among-us.png" /> 
+                <img alt="" src={brianAmongUs} /> 
                 <p>
                   Hello! My name is Brian! :) First thing I would like to mention is that I'm a breed between 
                   white and Mexican so I guess you can say Whitexican? I love technology. I been thinking about 
@@ -114,7 +126,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>JENNA NGUYEN (VICE PRESIDENT)</h2> 
                 <h3>JOINED IN 2018, STARTED BAKING COLUMN IN 2019, VICE PRESIDENT SINCE 2020, EDITOR-IN-CHIEF SINCE 2020</h3> 
-                <img alt="" src="/jenna-among-us.png" /> 
+                <img alt="" src={jennaAmongUs} /> 
                 <p>
                   Hey everyone! I'm Jenna, a senior at TGB :). If you can picture a Vietnamese girl that's just 
                   over five feet and lvoes to get creative, then yuo would be picturing me! I love spending my 
@@ -148,7 +160,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>STEVEN LE (TREASURER)</h2> 
                 <h3>JOINED IN 2018, TREASURER SINCE 2019, EDITOR-IN-CHIEF SINCE 2020, FOUNDED CYBER ORANGE IN 2020</h3> 
-                <img alt="" src="/steven-among-us.png" /> 
+                <img alt="" src={stevenAmongUs} /> 
                 <p>
                   HEYYOO!!! I’m Steven Le! o/ ← (me waving). First thing I have to say is that I have no idea 
                   how to make bios… SO LET'S WING IT!!! (^_^’) I am Vietnamese-American, and I have been gaming 
@@ -176,7 +188,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>LACEY SCHAUMLOEFFEL-SLEZAK (SECRETARY ALUMN)</h2> 
                 <h3>JOINED IN 2018, SECRETARY IN 2020, EDITOR IN 2020, GRADUATED IN 2020</h3> 
-                <img alt="" src="/lacey-among-us.png" /> 
+                <img alt="" src={laceyAmongUs} /> 
                 <p>
                   Hello! My name is Lacey, and I am a mix of German and Czechoslovakian. I love writing and running. 
                   They both give me peace of mind when I am stressed, and they help me cope with uneasy situations. 
@@ -187,7 +199,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>JAIR CARRIZAL (ILLUSTRATOR)</h2> 
                 <h3>JOINED IN 2020, ILLUSTRATOR SINCE 2020</h3> 
-                <img alt="" src="/jair-among-us.png" /> 
+                <img alt="" src={jairAmongUs} /> 
                 <p>
                   Hey, what’s up! I’m Jair Carrizal, and you’re watching Disney channel. The first thing I would 
                   like to say is that I am a mix of Mexican and Philipino. I always had a passion for music, which 
@@ -210,7 +222,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>DANILLEY SILVA (MEMBER)</h2> 
                 <h2>JOINED IN 2020</h2> 
-                <img alt="" src="/danilley-among-us.png" /> 
+                <img alt="" src={danilleyAmongUs} /> 
                 <p>
                 Hello! My name is Danilley Silva, and I am Junior. I am a member of the Newspaper Club, Drama 
                 Club, and the vice president of Be A Leader and AVID Club. I love learning new languages. I 
@@ -224,7 +236,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>IRAIS AGUILAR COCONI (MEMEBER)</h2> 
                 <h3>JOINED IN 2020</h3> 
-                <img alt="" src="/irais-among-us.png" /> 
+                <img alt="" src={iraisAmongUs} /> 
                 <p>
                   Hi! My name is Irais, and I’m a sophomore. I’ve been in the Newspaper since the start of 
                   the 2020 school year. I joined because I thought I could try a different form of writing 
@@ -245,7 +257,7 @@ function AboutUs() {
               <div id="content" style={{borderTop: '2px solid rgba(0, 0, 0, 0.2)'}}>
                 <h2>OZZIE (MASCOT)</h2> 
                 <h3>JOINED IN 2017</h3> 
-                <img alt="" src="/ozzie-among-us.png" /> 
+                <img alt="" src={ozzieAmongUs} /> 
                 <p>Hi! I'm the Newspaper Club Mascot!</p> 
                 <p>
                   I was born in Flagstaff, Arizona, but after moving to Trevor Browne, I finally found 

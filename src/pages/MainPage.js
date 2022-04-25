@@ -4,7 +4,9 @@ import { articles } from '../db/ArticleEditions';
 import { Link, useNavigate } from 'react-router-dom'; 
 import '../css/main.scss'; 
 import Footer from './portions/Footer'; 
-import Nav from './portions/Nav';
+import Nav from './portions/Nav'; 
+import orange from '../images/Miscellaneous/orange.htm'; 
+import bear from '../images/Miscellaneous/bear.gif'; 
 
 function MainPage() { 
 
@@ -33,13 +35,13 @@ function MainPage() {
 
             <div className="index-title-img-container">
                 <h1>Cyber Orange</h1>
-                <img alt="" className="orange" src="/orange.htm" />
+                <img alt="" className="orange" src={orange} />
             </div> 
 
             <h3>THE OFFICIAL TGB SCHOOL NEWSPAPER WEBSITE:</h3>
 
             <div className="img-container">
-                <img alt="" className="bear" src="/bear.gif" />
+                <img alt="" className="bear" src={bear} />
             </div>
 
             <ReactTypingEffect

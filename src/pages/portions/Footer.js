@@ -1,6 +1,8 @@
 import React from 'react'; 
 import '../../css/portion/footer.scss'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import joinDiscord from '../../images/Miscellaneous/join-newspaper-discord.png'; 
+import pxu from '../../images/Miscellaneous/pxu.png'; 
 
 function BottomNav() {
   return (
@@ -8,8 +10,8 @@ function BottomNav() {
       <div id="footer">
 
         <div className="join-newspaper-discord-container">
-          <a target="_blank" href="https://discord.gg/6PnsPZBPUp">
-            <img alt="" src="join-newspaper-discord.png" />
+          <a target="_blank" href="https://discord.gg/6PnsPZBPUp" rel="noreferrer">
+            <img alt="" src={joinDiscord} />
           </a>
         </div>
 
@@ -48,7 +50,7 @@ function BottomNav() {
             </div>
             <div className="right">
               <a target="_blank" href="https://www.pxu.org/">
-                <img alt="" src="pxu.png" /> 
+                <img alt="" src={pxu} /> 
               </a>
               
               <a target="_blank" href="https://www.facebook.com/TGBHSBRUINS/">
