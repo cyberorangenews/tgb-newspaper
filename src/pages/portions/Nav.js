@@ -83,20 +83,20 @@ function Nav(props) {
           <FontAwesomeIcon onClick={handleNavClose} icon={faX} />
         </div>
         <div className="nav-open-up-content-container">
-          <Link className="nav-open-up-item" id="a" to="/">
-            <div to="/" id="b" className={props.page === "Home" ? "orange-text" : "nav-item-click"}>Home</div>
+          <Link className="nav-open-up-item" id="a" to="/tgb-newspaper">
+            <div id="b" className={props.page === "Home" ? "orange-text" : "nav-item-click"}>Home</div>
           </Link>
           <Link className="nav-open-up-item" id="a" to="/tgb-newspaper/editions">
-            <div to="/editions" id="b" className={props.page === "Editions" ? "orange-text" : "nav-item-click" }>Editions</div>
+            <div id="b" className={props.page === "Editions" ? "orange-text" : "nav-item-click" }>Editions</div>
           </Link> 
           <Link className="nav-open-up-item" id="a" to="/tgb-newspaper/memes">
-            <div to="/memes" id="b" className={props.page === "Memes" ? "orange-text" : "nav-item-click" }>Memes</div>
+            <div id="b" className={props.page === "Memes" ? "orange-text" : "nav-item-click" }>Memes</div>
           </Link> 
           <Link className="nav-open-up-item" id="a" to="/tgb-newspaper/student-profiles">
-            <div to="/student-profiles" id="b" className={props.page === "Student Profiles" ? "orange-text" : "nav-item-click" }>Student Profiles</div>
+            <div id="b" className={props.page === "Student Profiles" ? "orange-text" : "nav-item-click" }>Student Profiles</div>
           </Link> 
           <Link className="nav-open-up-item" id="a" to="/tgb-newspaper/about-us">
-            <div to="/about-us" id="b" className={props.page === "About Us" ? "orange-text" : "nav-item-click" }>About Us</div>
+            <div id="b" className={props.page === "About Us" ? "orange-text" : "nav-item-click" }>About Us</div>
           </Link>
         </div>
       </div>
